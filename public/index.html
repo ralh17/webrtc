@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webrtc</title>
+</head>
+<body>
+<h1>Sala Webrtc</h1>
+<div id="selectRoom">
+    <label>Nombre de la sala</label>
+    <input id="roomNumber" type="text">
+    <button id="goRoom">Iniciar Llamada</button>
+</div>
+
+<div id="consultingRoom" style="display: none;">
+    <video id="localVideo" autoplay controls></video>
+    <video id="remoteVideo" autoplay controls></video>
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<script src="main.js"></script>  
+</body>
+</html>
