@@ -1,18 +1,22 @@
 {
   "name": "webrtc",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rafael Arrieta",
   "license": "ISC",
   "dependencies": {
-    "experss": "0.0.1-security",
-    "express": "^4.17.1",
-    "nodemon": "^2.0.4",
-    "socket.io": "^2.3.0"
-  }
+    "experss": "*",
+    "express": "*",
+    "nodemon": "*",
+    "socket.io": "*"
+  },
+  "engines": {
+    "node": "12.13.0"
+  },
+  "devDependencies": {},
+  "description": ""
 }
