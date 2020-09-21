@@ -7,7 +7,7 @@ let io = require('socket.io')(https)
 app.use(express.static('public'))
 
 https.listen(port, ()=>{
-    console.log('conectado en el puerto', port);
+    console.log('https://localhost:3000/', port);
 })
 
 io.on('connection', socket => {
